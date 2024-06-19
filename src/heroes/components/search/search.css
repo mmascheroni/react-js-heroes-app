@@ -1,0 +1,23 @@
+.container-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+input:focus {
+    border-color: rgb(255, 144, 0);
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset,
+        0 0 8px rgba(255, 144, 0, 0.6);
+    outline: 0 none;
+}
+
+.btn-search {
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: rgb(80, 79, 79);
+}
