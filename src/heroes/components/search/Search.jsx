@@ -25,7 +25,7 @@ const Search = () => {
 
     return (
         <form className='container-search' onSubmit={ onSearch }>
-            <input type='text' name='searchText' value={ searchText } onChange={ onChange } />
+            <input type='text' name='searchText' value={ searchText } onChange={ onChange } placeholder='Buscar Heroe' />
             <button className='btn-search'>🔎</button>
         </form>
     )

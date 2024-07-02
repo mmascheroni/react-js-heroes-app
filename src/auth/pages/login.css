@@ -1,0 +1,17 @@
+.form-login {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-login input {
+    padding: 8px 15px;
+    border: none;
+}
+
+.p-error {
+    color: red;
+}
